@@ -1,0 +1,137 @@
+/* RESET CSS */
+
+body, div, fieldset, input, img, a, a:hover, select, li, ul, p, h1, h2, h3, h4, h5, h6, iframe
+{
+    margin: 0;
+    padding: 0;
+    border : 0;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    vertical-align: bottom;
+    white-space: normal;
+}
+
+/* CENTRAGE */
+
+
+h2.Welcome{
+    color: #fff;
+    padding-left: 200px ;
+}
+
+
+.global {
+    width:80% !important; 
+    position: relative; 
+    z-index: 1; 
+    margin: auto;
+    padding-right: 0px;
+   background-color: #3A0000;
+}
+
+div.discord
+{
+    position: absolute; right: 50px;
+
+}
+
+/* ANIMATION */
+
+.anim {-khtml-transition: 0.4s; -ie-transition: 0.4s; -o-transition:0.4s; -moz-transition: 0.4s; transition: 0.4s;}
+
+
+/* CLEAR */
+
+.clear {clear: both;}
+
+/* BODY */
+body{background: #1c2a2d; font-family:Montserrat;}
+
+/* HEADER */
+header img{float: left; padding-top: 18px;}
+header ul{float: right; margin-top: 50px;}
+header ul li {display: inline-block; font-family:Montserrat; font-size: 1em; text-transform: uppercase; margin-right: 30px; font-weight: 400; color:#fff;}
+header ul li a{color:#fff;}
+header ul li a:hover{font-weight: 700; color:#fff;}
+header h1 {font-family:Montserrat; font-size: 1.4em; color : #fff; text-transform: uppercase; font-weight: 300; margin: 3% 0; float: left; margin-bottom: 10%;}
+span {color: #8d661e; font-weight: 700;}
+
+header .rs {
+    margin-top: 1.7%;
+    padding-left: 50px;
+    display: inline-grid;
+
+}
+header .rs li {
+    margin-left: -15px;
+}
+header{color:red;}
+
+/* GAME OUR */
+.game a{color: #8d661e; font-weight: 700;}
+.game p{color: #fff; font-family:Montserrat; text-transform: uppercase; font-size: 1.4em; text-align: center;}
+
+/* TEAM */
+.team-section{overflow: hidden; text-align: center;}
+.team-section h1{text-transform: uppercase; margin-bottom: 60px ; color:white; font-size: 40px;}
+.border{display: block; margin: auto; width: 160px; height: 3px; background: white; margin-bottom: 40px;}
+.ps{margin-bottom: 40px;}
+.ps a{display: inline-block; margin: 0 30px; overflow: hidden; border-radius: 10%;}
+.ps a img{filter: grayscale(100%); transition: 0.4s all;}
+.ps a:hover > img{filter: none;}
+.section{width: 600px; margin: auto; font-size: 20px; color: white; text-align: center; text-transform: uppercase; height: 0; overflow:hidden; margin-bottom: 60px;}
+.section:target{height: auto;}
+.name{display: block; margin-bottom: 30px; text-transform: uppercase; text-align: center; font-size:22px;}
+.footer{
+    /*width:95%;*/
+    height:8em;
+    background-color:#212;
+    bottom:0;position:relative;
+    text-align:center
+    clear:both;
+    color:white;
+    margin-top:5.9em;
+    -webkit-box-shadow:0 1em 8em black;
+    box-shadow:0 1em 8em black;
+    padding:1em;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    font-family:Montserrat;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em
+
+
+}
+
+ul.rs-footer
+{
+    padding-left: 1200px;
+
+}
+/*# sourceMappingURL=footer.min.css.map */
+
+/* CONTACT */
+
+.contact-form {text-align: center;}
+    form{margin-top: 50px; transition: all 4s ease-in-out;}
+    .form-control{width: 600px; background: transparent; border: none; outline: none; border-bottom: 1px solid gray; color: #1c2a2d; font-size: 18px; margin-bottom: 16px;}
+    input {height: 45px;}
+    form .submit{background-color: #8d661e; border-color: transparent; color: #1c2a2d; font-size: 20px; font-weight: 700; letter-spacing: 2px; height: 50px; margin-top: 20px;}
+    form .submit:hover{background-color: #1c2a2d; cursor: pointer; color: #8d661e}
+
+/* FOOTER */
+
+/*footer p{color: #fff; font-family: 'Open Sans'; text-transform: uppercase; font-weight: 300; text-align: center; margin-top: 10%;}*/
+
